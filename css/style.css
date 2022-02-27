@@ -1,0 +1,385 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body {
+    font-size: 24px;
+}
+header{
+    background-color: rgba(22, 77, 22, 0.904);
+}
+.header__container{
+    color: white;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.header__container nav ul{
+    list-style-type: none;
+    font-size: 18px;
+    display: flex;
+    margin: 0 10px;
+    align-items: end ;
+    text-decoration: none;
+}
+.header__container nav ul li {
+  list-style-type: none;
+ margin: 0 10px;
+  padding: 8px 12px;
+  cursor: pointer;
+ 
+}
+.menuhms{
+    width: 40px;
+    display: none;
+}
+.nav__text{
+    text-decoration: 0;
+    font-size: 19px;
+    color:#fcfcfc;
+    flex-direction: column-reverse;
+}
+.header__title{
+    color: #189111;
+    display: flex;
+    text-align: start;
+    margin: 0;
+}
+.header__title2{
+    color: white;
+    display: flex;
+    align-items: start;
+    margin: 0;
+}
+.header__title3{
+    display: inline;
+    justify-content: start;
+    color: rgb(153, 15, 15);
+    margin: 0;
+}
+.portada{
+    background-color: black;
+    background-image: url(../assets/img/portada.jpg);
+    background-size: cover;
+    height: 600px;
+    background-position: center;
+    color: rgb(0, 0, 0);
+    display: grid;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    opacity: 0.9;
+   
+
+
+}
+.portada__boton{
+    display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: start;
+  
+  
+}
+.portada__botonstl{
+    width: 270px;
+    height: 50px;
+    font-size: 25px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.portada__descr{
+    width: 200px;
+    text-align: center;
+    margin-top: 180px;
+    width: 100%;
+    height: 100%;
+    transition: transform 1s;
+
+    
+}
+.portada__descr:hover{
+    transform: scale(1.1);
+}
+.informacion{
+    max-width: 1200px;
+    /* background-color: #ccded8; */
+    margin: 80px auto;
+    display: grid;
+    grid-template-areas: 
+    'titulo titulo1'
+    'descr descr1'
+    'titulo2 titulo3'
+    'descr2 descr3' ;
+    gap: 20px;
+   
+}
+.info__descr{
+    display: grid;
+    grid-area: descr;
+    text-align: center;
+    
+   
+    
+   
+}
+.info__1{
+    display: gird;
+    grid-area: titulo;
+    text-align: center;
+
+}
+.info__descr1{
+   display: grid;
+   grid-area: descr1;
+   text-align: center;
+  
+
+   
+}
+.info__2{
+    display: grid;
+    text-align: center;
+    grid-area: titulo1;
+    
+}
+.info__3{
+    display: grid;
+    grid-area: titulo2;
+    text-align: center;
+    
+}
+.info__descr2{
+    display: grid;
+    grid-area: descr2;
+    text-align: center;
+    
+}
+.info__4{
+    display: grid;
+    grid-area: titulo3;
+    text-align: center;
+
+}
+.info__descr3{
+    display: grid;
+    grid-area: descr3;
+    text-align: center;
+    
+}
+.titulos__hr{
+    color: #189111;
+    width: 200px;
+  
+    
+   
+}
+.info__descr span{
+    width: 100%;
+    height: 100%;
+    transition: transform 1s;
+    
+}
+.info__descr span:hover{
+    transform: scale(1.1);
+}
+.info__descr1 span{
+    width: 100%;
+    height: 50%;
+    transition: transform 1s;
+    
+}
+.info__descr1 span:hover{
+    transform: scale(1.1);
+}
+.info__descr2 span:hover{
+    transform: scale(1.1);
+}
+.info__descr2 span{
+    width: 100%;
+    height: 50%;
+    transition: transform 1s;
+    
+}
+.info__descr3 span{
+    width: 100%;
+    height: 50%;
+    transition: transform 1s;
+    
+}
+.info__descr3 span:hover{
+    transform: scale(1.1);
+}
+
+
+.tituloreq{
+    font-size: 50px;
+    text-align: center;
+    color: #189111;
+    
+}
+.boton__mira{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 50px;
+}
+.boton__style1{
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+}
+footer{
+    display: grid;
+    grid-template-areas: 
+    'redes texto mail';
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    background-image: url(../assets/img/street-g006d986a5_1920.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 20px 0;
+    margin-top: 200px;
+    
+  
+}
+.foot_text{
+    display: grid;
+    grid-area: texto;
+    justify-items: center;
+}    
+.foot__soc{
+   display: grid;
+   grid-area: redes;
+   grid-template-areas: 
+   'insta wp';
+   margin: 0 15px;
+   padding: 0;
+
+   
+}
+.soc__st{
+    width: 50px;
+    height: 50px;
+}
+
+.foot__email{
+    color: white;
+    display: grid;
+    grid-area: mail;
+    justify-content: end;
+}
+.email__st{
+   
+    display: inline-block;
+}
+/* Aca empieza Tramitalia.html */
+.container__contenido{
+    display: grid;
+    grid-template-columns: 60% 1fr;
+    
+}
+.contenido__item{
+ display: inline;
+ justify-items: center;
+ align-items: center;
+    
+}
+.cajatexto{
+    width: 200px;
+    height: 100px;
+}
+
+.img__contenido{
+    background-image: url(../assets/img/venice-g021b7af1f_1920.jpg);
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end:3;
+    grid-row-start:1;
+    grid-row-end:7;
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+    height: 1200px;
+     
+}
+.contenido__item1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/* footer tramitalia */
+.foot__style{
+    margin-top: 0;
+}
+/* INGRESO A PLATAFORMA */
+.container__ingreso{
+    display: grid;
+    grid-template-columns: 1fr;
+    background-image:url(../assets/img/Venecia.jpg) ;
+    height: 1200px;
+    color: white;
+    background-size: cover;
+    background-position: right;
+    width: 100%;
+}
+.ingreso__item{
+    display: flex;
+    place-content: center;
+    justify-items: center;
+    align-items: end; 
+    gap: 5px;
+}
+.ingreso__item1{
+    margin-top: 10px;
+    display: flex;
+    place-content: center;
+    justify-items: center;
+    align-items: start;
+    gap: 5px;
+}
+.ingreso__item2{
+    display: flex;
+    place-content: center;
+    justify-items: start;
+    align-items: start;
+   position: relative;
+   bottom: 370px;
+}
+/* Medias */
+@media (max-width: 575px) {
+   .header__container nav{
+       display: none;
+   }
+   .header__container img{
+       display: inline-block;
+   }
+  }
+  @media (max-width: 415px){
+      body{
+          font-size: 130%;
+      }
+      .informacion{
+      grid-template-columns: 1fr;
+        
+      }
+    }
+    @media (max-width: 390px){
+        .informacion{
+            grid-template-columns: 1fr;
+            grid-template-rows: repeat(8 1fr);
+
+        }
+        
+    }
+  
+  
