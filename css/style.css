@@ -63,7 +63,7 @@ header{
 }
 .portada{
     background-color: black;
-    background-image: url(../assets/img/portada.jpg);
+    background-image: url(../assets/img/village-g83e33e360_1920.jpg);
     background-size: cover;
     height: 600px;
     background-position: center;
@@ -83,26 +83,27 @@ header{
   
   
 }
+.portada__descr{
+    color: white;
+    width: 100px;
+    text-align: center;
+    margin-top: 180px;
+    width: 100%;
+    ;
+    transition: transform 1s;
+    
+
+    
+}
+.portada__descr:hover{
+    transform: scale(0.9);
+}
 .portada__botonstl{
     width: 270px;
     height: 50px;
     font-size: 25px;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
     cursor: pointer;
-}
-
-.portada__descr{
-    width: 200px;
-    text-align: center;
-    margin-top: 180px;
-    width: 100%;
-    height: 100%;
-    transition: transform 1s;
-
-    
-}
-.portada__descr:hover{
-    transform: scale(1.1);
 }
 .informacion{
     max-width: 1200px;
