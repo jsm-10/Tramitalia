@@ -44,7 +44,7 @@ header{
     flex-direction: column-reverse;
 }
 .header__title{
-    color: #189111;
+    color: #0f6e0a;
     display: flex;
     text-align: start;
     margin: 0;
@@ -238,7 +238,7 @@ header{
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
     text-decoration: none;
 }
-footer{
+/* footer{
     display: grid;
     grid-template-areas: 
     'redes texto mail';
@@ -247,10 +247,10 @@ footer{
     background-size: cover;
     background-position: center;
     padding: 20px 0;
-    margin-top: 200px;
+    margin-top: 200px; */
     
   
-}
+
 .foot_text{
     display: grid;
     grid-area: texto;
@@ -283,15 +283,17 @@ footer{
 }
 /* Aca empieza Tramitalia.html */
 .container__contenido{
+   
+    margin-left: 20px;
     display: grid;
     grid-template-columns: 60% 1fr;
     
 }
 .contenido__item{
- display: inline;
+    display: inline;
  justify-items: center;
- align-items: center;
-    
+ align-items: center; 
+ 
 }
 .cajatexto{
     width: 200px;
@@ -354,7 +356,7 @@ footer{
     justify-items: start;
     align-items: start;
    position: relative;
-   bottom: 370px;
+   bottom: 340px;
 }
 /* Medias */
 @media (max-width: 575px) {
