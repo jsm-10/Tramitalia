@@ -16,7 +16,7 @@
   <header>
     <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #198754;">
       <div class="container-fluid">
-        <a class="navbar-brand" href="./index.html"><h1 class="header__title">Tra<span class="header__title2">mit</span><span class="header__title3">alia</span></h1></a>
+        <a class="navbar-brand" href="../index.html"><h1 class="header__title">Tra<span class="header__title2">mit</span><span class="header__title3">alia</span></h1></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -29,27 +29,38 @@
               <a class="nav-link" href="./tramitalia.html">Tramitalia</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./plataforma.html">Contacto</a>
+              <a class="nav-link" href="./plataforma.html">Plataforma</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./novedades.html">Novedades</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
   </header>
-    <section class="container__ingreso">
-        <div class="ingreso__item">
-            <label for="mail">User</label>
-            <input type="Mail" class="cajas__st" placeholder="usuario">
+    <section class="container__ingreso mx-auto">
+      <section class="container mt-5">
+        <div class="row">
+      <div class="col-sm 12 col-md-8 col-lg-6 border p-4 rounded mx-auto">
+        <h3 class="mb-4">Inicio Sesion</h3>
+        <form action="">
+          <div class="input-group">
+            <label class="input-group-text" for="mail">Usuario</label>
+            <input type="Mail" class="form-control" placeholder="@example">
         </div>
-        <div class="ingreso__item1">
-            <label for="mail">Password</label>
-            <input type="password" class="cajas__st" placeholder="password">
+        <div class="input-group">
+            <label class= "input-group-text" for="mail">Password</label>
+            <input type="password" class="form-control " placeholder="*************">
         </div>
-        <div class="ingreso__item2">
-            <button type="submit">Ingresar</button> 
-        </div>
+        <div class="d-flex flex-row-reverse bd-highlight mt-3 md-inline">
+            <button class="btn btn-light"type="submit">Ingresar</button> 
+          </div>
+       
+      </section>  
 
     </section>
+    </form>
     
     <footer class>
       <nav class="navbar navbar-expand navbar-light sticky-top" style="background-image: url(../assets/img/street-g006d986a5_1920.jpg)">

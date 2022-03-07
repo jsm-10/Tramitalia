@@ -65,14 +65,11 @@ header{
     background-color: black;
     background-image: url(../assets/img/village-g83e33e360_1920.jpg);
     background-size: cover;
-    height: 600px;
+    height: 700px;
     background-position: center;
     color: rgb(0, 0, 0);
-    display: grid;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
     opacity: 0.9;
-   
-
 
 }
 .portada__boton{
@@ -81,7 +78,6 @@ header{
   justify-content: center;
   align-items: start;
   
-  
 }
 .portada__descr{
     color: white;
@@ -89,7 +85,6 @@ header{
     text-align: center;
     margin-top: 180px;
     width: 100%;
-    ;
     transition: transform 1s;
     
 
@@ -101,23 +96,13 @@ header{
 .portada__botonstl{
     width: 270px;
     height: 50px;
-    font-size: 25px;
+    font-size: 20px;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
     cursor: pointer;
+    
+    
 }
-.informacion{
-    max-width: 1200px;
-    /* background-color: #ccded8; */
-    margin: 80px auto;
-    display: grid;
-    grid-template-areas: 
-    'titulo titulo1'
-    'descr descr1'
-    'titulo2 titulo3'
-    'descr2 descr3' ;
-    gap: 20px;
-   
-}
+    
 .info__descr{
     display: grid;
     grid-area: descr;
@@ -238,19 +223,7 @@ header{
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
     text-decoration: none;
 }
-/* footer{
-    display: grid;
-    grid-template-areas: 
-    'redes texto mail';
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
-    background-image: url(../assets/img/street-g006d986a5_1920.jpg);
-    background-size: cover;
-    background-position: center;
-    padding: 20px 0;
-    margin-top: 200px; */
-    
   
-
 .foot_text{
     display: grid;
     grid-area: texto;
@@ -281,24 +254,7 @@ header{
    
     display: inline-block;
 }
-/* Aca empieza Tramitalia.html */
-.container__contenido{
-   
-    margin-left: 20px;
-    display: grid;
-    grid-template-columns: 60% 1fr;
-    
-}
-.contenido__item{
-    display: inline;
- justify-items: center;
- align-items: center; 
- 
-}
-.cajatexto{
-    width: 200px;
-    height: 100px;
-}
+
 
 .img__contenido{
     background-image: url(../assets/img/venice-g021b7af1f_1920.jpg);
@@ -319,11 +275,6 @@ header{
     align-items: center;
     
 }
-
-/* footer tramitalia */
-.foot__style{
-    margin-top: 0;
-}
 /* INGRESO A PLATAFORMA */
 .container__ingreso{
     display: grid;
@@ -335,30 +286,6 @@ header{
     background-position: right;
     width: 100%;
 }
-.ingreso__item{
-    display: flex;
-    place-content: center;
-    justify-items: center;
-    align-items: end; 
-    gap: 5px;
-}
-.ingreso__item1{
-    margin-top: 10px;
-    display: flex;
-    place-content: center;
-    justify-items: center;
-    align-items: start;
-    gap: 5px;
-}
-.ingreso__item2{
-    display: flex;
-    place-content: center;
-    justify-items: start;
-    align-items: start;
-   position: relative;
-   bottom: 340px;
-}
-/* Medias */
 @media (max-width: 575px) {
    .header__container nav{
        display: none;
@@ -384,5 +311,18 @@ header{
         }
         
     }
-  
+    .novedades__portada{
+        background-color: black;
+        background-image: url(/assets/img/italy-gf026ee8c2_1920.jpg);
+        background-size: cover;
+        height: 400px;
+        color: rgb(0, 0, 0);
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+        opacity: 0.9;
+    
+    }
+  .noticia__1{
+      
+    height: 400px;
+  }
   
