@@ -313,7 +313,7 @@ header{
     }
     .novedades__portada{
         background-color: black;
-        background-image: url(/assets/img/porta2.jpg);
+        background-image: url(./assets/img/porta2.jpg);
         background-size: cover;
         height: 400px;
         color: rgb(0, 0, 0);
