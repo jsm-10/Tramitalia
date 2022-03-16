@@ -1,0 +1,29 @@
+.info__descr{
+    @extend .descrpTemplate;
+}
+.info__descr1{
+    @extend .descrpTemplate;
+}
+.info__descr2{
+    @extend .descrpTemplate;
+}
+.info__descr3{
+    @extend .descrpTemplate;
+}
+.info__1{
+    @extend .titleTemplate;
+    @include sombreado('yes');
+}
+.info__2{
+    @extend .titleTemplate;
+    @include sombreado('yes');
+}
+.info__3{
+    @extend .titleTemplate;
+    @include sombreado('yes');
+}
+.info__4{
+    @extend .titleTemplate;
+    @include sombreado('yes');
+}
+
