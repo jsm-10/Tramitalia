@@ -1,22 +1,6 @@
-*{
-    padding: 0;
-    margin: 0;
 
-}
-body {
-    font-size: 24px;
-}
-header{
-    background-color: rgba(22, 77, 22, 0.904);
-}
-.header__container{
-    color: white;
-    max-width: 1200px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
+.header__container nav ul{
+    list-style-type: none;
 }
 .header__container nav ul{
     list-style-type: none;
@@ -33,28 +17,33 @@ header{
   cursor: pointer;
  
 }
+
 .menuhms{
     width: 40px;
     display: none;
 }
+
 .nav__text{
     text-decoration: 0;
     font-size: 19px;
     color:#fcfcfc;
     flex-direction: column-reverse;
 }
+
 .header__title{
     color: #0f6e0a;
     display: flex;
     text-align: start;
     margin: 0;
 }
+
 .header__title2{
     color: white;
     display: flex;
     align-items: start;
     margin: 0;
 }
+
 .header__title3{
     display: inline;
     justify-content: start;
@@ -213,7 +202,7 @@ header{
   justify-content: center;
   align-items: center;
   position: relative;
-  top: 50px;
+  top: 20px;
 }
 .boton__style1{
     width: 200px;
@@ -328,4 +317,3 @@ header{
   .noticia__2{
       height: 400px;
   }
-  
