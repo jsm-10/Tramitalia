@@ -1,0 +1,51 @@
+html{
+    font-size:62.5%;
+}
+
+body{
+    background-color: colorBg;
+}
+.titleTemplate {
+    color: $colorprimary;
+    margin: 2rem 0;
+    font-size: $fonttitles;
+}
+
+.descrpTemplate{
+    color: $lettercolor;
+}
+@mixin sombreado ($shadow){
+    @if ($shadow == 'yes') {
+        box-shadow: 0px 2rem 3rem rgba(0, 0, 0, 0.1);
+    }
+}
+ @each $titulos in (h3){
+     #{$titulos} {
+         text-transform: uppercase;
+     }
+ }
+ @media (max-width: 575px) {
+    .header__container nav{
+        display: none;
+    }
+    .header__container img{
+        display: inline-block;
+    }
+   }
+   @media (max-width: 415px){
+       body{
+           font-size: 130%;
+       }
+       .informacion{
+       grid-template-columns: 1fr;
+         
+       }
+     }
+     @media (max-width: 390px){
+         .informacion{
+             grid-template-columns: 1fr;
+             grid-template-rows: repeat(8 1fr);
+ 
+         }
+         
+     }

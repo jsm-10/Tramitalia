@@ -1,0 +1,10 @@
+.container__ingreso{
+    display: grid;
+    grid-template-columns: 1fr;
+    background-image:url(../assets/img/Venecia.jpg) ;
+    height: 1200px;
+    color: white;
+    background-size: cover;
+    background-position: right;
+    width: 100%;
+}

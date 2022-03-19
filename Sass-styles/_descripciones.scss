@@ -1,0 +1,43 @@
+.descr{
+    @extend .descrpTemplate;
+    display: grid;
+    text-align: center;
+}
+.descr span{
+    width: 100%;
+    height: 100%;
+    transition: transform 1s;
+
+}
+.descr span:hover{
+ transform: scale(1.1);
+}
+.titulo{
+    display: grid;
+    text-align: center;
+    @extend .titleTemplate;
+    @include sombreado('yes');
+}
+.tituloreq{
+    font-size: 50px;
+    text-align: center;
+    color: #189111;
+    
+}
+.boton{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 20px;
+ &__style1{
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+ }    
+}
+

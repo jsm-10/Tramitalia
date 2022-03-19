@@ -1,0 +1,17 @@
+.novedades{
+    background-color: black;
+    background-image: url(../assets/img/porta2.jpg);
+    background-size: cover;
+    height: 400px;
+    color: rgb(0, 0, 0);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    opacity: 0.9;
+&__1{
+    height: 400px;
+    font-size: 4rem;
+
+&__2{
+    height: 400px;
+} 
+}    
+}

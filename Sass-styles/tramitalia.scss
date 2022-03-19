@@ -1,0 +1,19 @@
+.img__contenido{
+    background-image: url(../assets/img/venice-g021b7af1f_1920.jpg);
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end:3;
+    grid-row-start:1;
+    grid-row-end:7;
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+    height: 1200px;
+     
+}
+.contenido__item1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
